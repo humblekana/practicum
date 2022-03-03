@@ -3,7 +3,6 @@
 #include<util/delay.h>
 #include "peri.h"
 
-
 int main(){
     uint16_t light;
     init_peri();
