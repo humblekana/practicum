@@ -2,4 +2,4 @@
 #define Switch_on() ((PINC & (1<<3)) == 0)
 
 void init_peri();
-void set_led_value(unit8_t value);
+void set_led_value(uint8_t value);

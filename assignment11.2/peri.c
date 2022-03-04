@@ -5,7 +5,7 @@ void init_peri(){
     //set pc0 ,pc1 ,pc2 is output
     // set pc3,pc4 is input
     DDRC |= 1 | (1<<1) | (1<<2)   
-    DDRC &= ~((1<<3) || (1<<4))
+    DDRC &= ~((1<<3) | (1<<4))
 
     //set pull_up
     PORTC |= (1<<3);

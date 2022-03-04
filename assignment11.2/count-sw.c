@@ -4,7 +4,7 @@
 #include "peri.h"
 
 int main(){
-    unit8_t countt = 0;
+    uint8_t countt = 0;
     init_peri();
     set_led_value(0);
     while(1){
